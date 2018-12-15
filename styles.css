@@ -1,0 +1,132 @@
+@charset "utf-8";
+/* CSS Document */
+h1 {
+    background-color: #F7B9E9;
+	color : #D69CF4;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	text-align: center;
+    padding: 20px;
+}
+
+h2 {
+    background-color: #F7B9E9;
+	color : #F977C4;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif" ;
+	text-align: center;
+    padding: 20px;
+}
+
+body {
+  background-color: #F7B9E9;
+  color: #F977C4 ;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif" ;
+  text-align: center ;
+  padding: 20px ;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Instagram */
+.fa-instagram {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+	
+/* LinkedIn */
+.fa-linkedin {
+  background: #55ACEE;
+  color: white;
+}
+
+/* Spotify */
+.fa-spotify {
+	background: #6FD060;
+	color: black;
+}
+
+/* SoundCloud */
+.fa-soundcloud {
+	background: #F15724;
+	color: white;
+}
+
+/* YouTube */
+.fa-youtube {
+	background: white;
+	color:red;
+}
+
+
+
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #F7B9E9;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #F7B9E9;
+}
+.active {
+    background-color: #F977C4;
+}
+
+
+
+/* unvisited link */
+a:link {
+  color: hotpink;
+}
+
+/* visited link */
+a:visited {
+  color:hotpink;
+}
+
+/* mouse over link */
+a:hover {
+  color: purple;
+}
+
+/* selected link */
+a:active {
+  color: purple;
+}
